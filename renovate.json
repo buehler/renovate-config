@@ -13,5 +13,8 @@
   },
   "automerge": true,
   "timezone": "Europe/Zurich",
-  "schedule": ["after 9pm", "before 6am"]
+  "schedule": ["after 9pm", "before 6am"],
+  "dotnet": {
+    "extends": ["github>buehler>renovate-config:dotnet-solution"]
+  }
 }
