@@ -14,12 +14,12 @@
   "onboarding": true,
   "onboardingConfig": {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["github>buehler>renovate-config"]
+    "extends": ["github>buehler/renovate-config"]
   },
   "automerge": true,
   "timezone": "Europe/Zurich",
   "schedule": ["after 9pm", "before 6am"],
   "dotnet": {
-    "extends": ["github>buehler>renovate-config:dotnet-solution"]
+    "extends": ["github>buehler/renovate-config:dotnet-solution"]
   }
 }
